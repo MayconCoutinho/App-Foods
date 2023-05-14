@@ -6,8 +6,11 @@
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web"
-  },"husky": {
+    "web": "expo start --web",
+    "commit": "cz"
+
+  },
+  "husky": {
     "hooks": {
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
       "prepare-commit-msg": "exec < /dev/tty && npx cz --hook || true"
@@ -31,6 +34,7 @@
     "@babel/core": "^7.20.0",
     "@commitlint/cli": "^17.6.3",
     "@commitlint/config-conventional": "^17.6.3",
+    "commitizen": "^4.3.0",
     "husky": "^8.0.3"
   },
   "private": true
