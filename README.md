@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/60453269/233516295-acd066c4-dc18-404d-b479-48db92859de8.png" alt="Logo" width="200" height="200" />
+  <img src="https://github.com/MayconCoutinho/App-Foods/assets/60453269/25767a69-2139-4fb6-bf5c-284c338ef8ae" alt="Logo" width="200" height="200" />
 </p>
 
-<h1 align="center"> Readme </h1>
+<h1 align="center"> Vegan </h1>
 
 <a id="Sumário"></a>
 
