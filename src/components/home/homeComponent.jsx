@@ -1,4 +1,5 @@
 import { Text, TouchableOpacity, View } from "react-native";
+import { ScrollViewComponent } from "./scrollViewComponent";
 
 export const HomeComponent = ({ navigation }) => {
   return (
@@ -6,7 +7,7 @@ export const HomeComponent = ({ navigation }) => {
       <TouchableOpacity onPress={() => navigation.navigate("Login")}>
         <Text> Sair</Text>
       </TouchableOpacity>
-      <Text> Estou no Home</Text>
+      <ScrollViewComponent />
     </View>
   );
 };

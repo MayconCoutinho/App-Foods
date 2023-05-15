@@ -48,4 +48,12 @@ export const styles = StyleSheet.create({
     marginTop: 15,
   },
   title: { color: "#0F6657", fontSize: 40 },
+  tabCart: {
+    width: 60,
+    height: 60,
+    alignItems: "center",
+    justifyContent: "center",
+    borderRadius: 100,
+    marginBottom: 30,
+  },
 });

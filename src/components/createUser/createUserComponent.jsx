@@ -7,13 +7,9 @@ import {
 } from "react-native";
 import { styles } from "../../styles/styles";
 
-export const CreateUserComponent = ({ navigation }) => {
+export const CreateUserComponent = () => {
   return (
     <KeyboardAvoidingView style={styles.background}>
-      <TouchableOpacity onPress={() => navigation.navigate("Login")}>
-        <Text> Sair</Text>
-      </TouchableOpacity>
-
       <Text styles={styles.title}> Registra </Text>
 
       <View style={styles.container}>
