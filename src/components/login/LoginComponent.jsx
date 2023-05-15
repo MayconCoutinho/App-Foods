@@ -106,7 +106,7 @@ export const LoginComponent = ({ navigation }) => {
 
       <TouchableOpacity
         style={styles.btnSubmit}
-        onPress={() => navigation.navigate("Home")}
+        onPress={() => navigation.navigate("Tabs")}
       >
         <Text style={styles.submitText}> Acessar </Text>
       </TouchableOpacity>
