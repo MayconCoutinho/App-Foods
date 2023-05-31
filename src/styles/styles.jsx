@@ -7,6 +7,7 @@ export const styles = StyleSheet.create({
     justifyContent: "center",
     backgroundColor: "#f0f0f0",
   },
+  title: { color: "#0F6657", fontSize: 20, marginBottom: 40 },
   containerLogo: {
     justifyContent: "center",
     alignItems: "center",
@@ -47,7 +48,6 @@ export const styles = StyleSheet.create({
     color: "#0F6657",
     marginTop: 15,
   },
-  title: { color: "#0F6657", fontSize: 40 },
   tabCart: {
     width: 60,
     height: 60,
