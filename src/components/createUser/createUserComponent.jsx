@@ -10,9 +10,9 @@ import { styles } from "../../styles/styles";
 export const CreateUserComponent = () => {
   return (
     <KeyboardAvoidingView style={styles.background}>
-      <Text styles={styles.title}> Registra </Text>
-
       <View style={styles.container}>
+        <Text style={styles.title}> Registra </Text>
+
         <TextInput
           style={styles.input}
           placeholder="Name"
@@ -32,7 +32,6 @@ export const CreateUserComponent = () => {
           onChangeText={() => {}}
         />
       </View>
-
       <TouchableOpacity
         style={styles.btnSubmit}
         onPress={() => navigation.navigate("Home")}
